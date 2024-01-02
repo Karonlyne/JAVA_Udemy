@@ -8,8 +8,8 @@ public class Soma_Impares {
 		int x, y, somaImpares;
 		System.out.println("Digite dois numeros: ");
 		
-		y = sc.nextInt();
 		x = sc.nextInt();
+		y = sc.nextInt();
 		somaImpares = 0;
 		
 		for (int i = x-1; i > y; i--) {
